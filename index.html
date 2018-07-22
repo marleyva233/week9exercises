@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<!-- meta tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>week 9 exercises</title>
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
@@ -14,6 +14,22 @@
 	</head>
 	<body>
 		
+		<div class="myDiv container-fluid p-5">
+			<h1>Week 9 Exercises</h1>
+			
+			<p>Enter an item below to add it to your list</p>
+
+			<input type="text" name="myInput" id="input">
+			<button onclick="addItem()" id="button">Add Item</button>
+
+			<!-- starting my list -->
+			<ul id="myList"></ul>
+
+			<!-- buttons with a different function -->
+			<button onclick="deleteFirst()">Delete First Item</button>
+			<button onclick="alpha()">Sort Alphabetically</button>
+			<button onclick="deleteLast()">Delete Last Item</button>
+		</div>
 
 
 
