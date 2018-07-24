@@ -179,6 +179,8 @@ function addItem(){
 	newListItem.innerText=input.value;
 		//appending the new li to the ul
 	myList.appendChild(newListItem);
+
+	input.value="";
 }
 
 
